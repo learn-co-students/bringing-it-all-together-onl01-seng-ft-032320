@@ -96,7 +96,7 @@ class Dog
             name: result[1],
             breed: result[2]
          }
-         dog = self.create(dog)
+         self.create(dog)
       end
    end
 
